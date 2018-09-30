@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class timer : MonoBehaviour {
 
-    public float timeLeft = 300;
+    public float timeLeft = 30;
     public Text text; 
 
     public Sprite gameOver;
@@ -24,7 +26,7 @@ public class timer : MonoBehaviour {
 
         if(timeLeft<0)
         {
-            
+            SceneManager.LoadScene(3);
         }
 	}
 }
