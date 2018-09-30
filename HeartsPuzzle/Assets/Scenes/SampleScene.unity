@@ -1333,7 +1333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeLeft: 300
-  timerTextBox: {fileID: 1575952845}
+  text: {fileID: 1575952845}
   gameOver: {fileID: 0}
 --- !u!4 &514231140
 Transform:
@@ -1341,12 +1341,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 514231138}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.62668675, y: -10.995484, z: 4.7643347}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.62664795, y: -10.995483, z: 4.7643347}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1526,7 +1526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &689133703
 GameObject:
@@ -1648,7 +1648,7 @@ RectTransform:
   - {fileID: 1133640208}
   - {fileID: 929326227}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2259,7 +2259,7 @@ Transform:
   - {fileID: 622092425}
   - {fileID: 1262455358}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &868316905
 MonoBehaviour:
@@ -2485,10 +2485,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2803,10 +2803,10 @@ RectTransform:
   m_Father: {fileID: 1019334722}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 179.82, y: 64.9}
-  m_SizeDelta: {x: -104.56, y: -3.2}
+  m_AnchoredPosition: {x: -172.4, y: -151.1}
+  m_SizeDelta: {x: 1441.8, y: 1030.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169077543
 MonoBehaviour:
@@ -2898,7 +2898,7 @@ Transform:
   m_Children:
   - {fileID: 1074031740}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1196563304
 GameObject:
@@ -2944,7 +2944,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1245135554
 GameObject:
@@ -3374,7 +3374,7 @@ GameObject:
   - component: {fileID: 1575952845}
   m_Layer: 5
   m_Name: timeText
-  m_TagString: Untagged
+  m_TagString: timer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3386,7 +3386,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1575952843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1169077542}
@@ -3394,8 +3394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -16}
-  m_SizeDelta: {x: 286.1, y: 122}
+  m_AnchoredPosition: {x: 0.0011139496, y: 0.0004177311}
+  m_SizeDelta: {x: 1313.9, y: 828.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575952845
 MonoBehaviour:
@@ -3738,7 +3738,7 @@ Transform:
   - {fileID: 1580862757}
   - {fileID: 756328032}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1733275880
 GameObject:
@@ -4078,6 +4078,29 @@ GameObject:
   - component: {fileID: 1900760747}
   - component: {fileID: 1900760746}
   - component: {fileID: 1900760745}
+  - component: {fileID: 1900760821}
+  - component: {fileID: 1900760834}
+  - component: {fileID: 1900760833}
+  - component: {fileID: 1900760832}
+  - component: {fileID: 1900760831}
+  - component: {fileID: 1900760830}
+  - component: {fileID: 1900760829}
+  - component: {fileID: 1900760828}
+  - component: {fileID: 1900760827}
+  - component: {fileID: 1900760826}
+  - component: {fileID: 1900760825}
+  - component: {fileID: 1900760824}
+  - component: {fileID: 1900760823}
+  - component: {fileID: 1900760822}
+  - component: {fileID: 1900760843}
+  - component: {fileID: 1900760842}
+  - component: {fileID: 1900760841}
+  - component: {fileID: 1900760840}
+  - component: {fileID: 1900760839}
+  - component: {fileID: 1900760838}
+  - component: {fileID: 1900760837}
+  - component: {fileID: 1900760836}
+  - component: {fileID: 1900760835}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4098,11 +4121,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -634.3346, y: 133.29982}
+  scrollPos: {x: -132.78465, y: 167.99335}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 288
-  zoom: 0.45399788
+  blockViewHeight: 204
+  zoom: 0.4310004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4110,9 +4133,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1900760775}
-  selectedCommands:
-  - {fileID: 1900760772}
+  - {fileID: 1900760797}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4456,8 +4478,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1441.3285
-    y: -89.9624
+    x: 899.27576
+    y: 516.3112
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4482,7 +4504,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1900760719
 MonoBehaviour:
@@ -4546,7 +4568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.02788
     y: 223.92433
-    width: 149.11942
+    width: 149.76788
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4573,7 +4595,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.11133
     y: 112.98625
-    width: 173.3486
+    width: 176.45
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4748,7 +4770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 307.95828
     y: 32.717728
-    width: 225.11095
+    width: 228.65413
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4995,9 +5017,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1061.1746
-    y: 300.34088
-    width: 124.89022
+    x: 1124.1843
+    y: 289.04858
+    width: 125.40596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5022,9 +5044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  text: Option Text
+  text: Is Emily mean?
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1900760771}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -5046,7 +5068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  text: Do you want to be a nice kid?
+  text: You're already cool.
   description: 
   targetBlock: {fileID: 1900760742}
   hideIfVisited: 0
@@ -5070,9 +5092,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1558.1155
-    y: 252.69725
-    width: 206.3884
+    x: 1394.1237
+    y: 229.95354
+    width: 208.93256
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5120,9 +5142,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 782.48047
-    y: 230.54501
-    width: 240.52953
+    x: 782.4804
+    y: 243.61691
+    width: 241.41513
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5147,9 +5169,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1420.6414
-    y: 10.380768
-    width: 171.14594
+    x: 1530.069
+    y: -5.2257614
+    width: 174.12982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5221,9 +5243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 0
-  text: Option Text
+  text: Being pretty doesn't mean they're nice
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1900760822}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -5295,9 +5317,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 827.91656
-    y: 300.541
-    width: 135.90349
+    x: 852.95605
+    y: 309.31125
+    width: 135.84679
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5398,7 +5420,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.08344
     y: 325.18848
-    width: 228.41493
+    width: 233.2945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5573,7 +5595,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 292.50668
     y: 292.7266
-    width: 192.07115
+    width: 192.69128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5600,7 +5622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 300.49088
     y: 234.18285
-    width: 173.3486
+    width: 174.12982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5673,7 +5695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: 
+  storyText: I guess not
   description: 
   character: {fileID: 1262455357}
   portrait: {fileID: 0}
@@ -5699,9 +5721,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1562.4727
-    y: 130.09686
-    width: 194.2738
+    x: 1502.1461
+    y: 108.57669
+    width: 195.01146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5726,9 +5748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  text: Do you want to be a nice kid?
+  text: Do ya care what a meanie says about your hair?
   description: 
-  targetBlock: {fileID: 1900760742}
+  targetBlock: {fileID: 1900760840}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -5800,9 +5822,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1212.8096
-    y: 91.12024
-    width: 146.91675
+    x: 1120.6602
+    y: 111.25768
+    width: 149.76788
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5901,9 +5923,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1070.4583
-    y: 180.50778
-    width: 183.26053
+    x: 1088.1235
+    y: 202.81917
+    width: 183.41055
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5928,9 +5950,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  text: Option Text
+  text: I heard Sarah like's your hair
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1900760797}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6004,9 +6026,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 791.92175
-    y: 163.25635
-    width: 193.17247
+    x: 808.2615
+    y: 186.13216
+    width: 193.85136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6109,7 +6131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 524.7172
     y: 149.45361
-    width: 226.21228
+    width: 228.65413
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6284,9 +6306,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  text: Option Text
+  text: See she's mean
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1900760821}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6438,7 +6460,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 822.2699
     y: 102.85487
-    width: 258.15076
+    width: 261.1367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6463,9 +6485,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 860.317
-    y: 44.08851
-    width: 161.23401
+    x: 881.27673
+    y: 43.998943
+    width: 162.5289
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6491,8 +6513,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 755.2969
-    y: -20.471764
-    width: 186.56451
+    y: -8.843815
+    width: 189.211
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6518,8 +6540,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 769.9993
-    y: -88.111374
-    width: 151.32205
+    y: -86.26295
+    width: 152.08807
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6694,7 +6716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 549.94446
     y: 47.47371
-    width: 196.47646
+    width: 197.33165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6746,7 +6768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  storyText: Really? She's nice and real good at coloring.
+  storyText: She gave me a juice box once.
   description: 
   character: {fileID: 1262455357}
   portrait: {fileID: 0}
@@ -6838,9 +6860,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1131.4915
-    y: 14.316864
-    width: 204.18575
+    x: 1115.2633
+    y: 43.788567
+    width: 204.29219
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6865,9 +6887,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  text: Option Text
+  text: You're already cool
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1900760799}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6913,7 +6935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: 'But she''s the best...
+  storyText: 'But she''s the coolest...
 
 '
   description: 
@@ -6941,9 +6963,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 840.4928
-    y: 374.5741
-    width: 168.94328
+    x: 822.8913
+    y: 396.1423
+    width: 171.80963
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6951,7 +6973,10 @@ MonoBehaviour:
   blockName: Well I don't think that.
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1900760831}
+  - {fileID: 1900760830}
+  - {fileID: 1900760829}
 --- !u!114 &1900760817
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7039,9 +7064,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 992.121
-    y: -81.96341
-    width: 285.6839
+    x: 1000.86615
+    y: -85.839386
+    width: 287.8188
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7053,6 +7078,584 @@ MonoBehaviour:
   - {fileID: 1900760819}
   - {fileID: 1900760818}
   - {fileID: 1900760817}
+--- !u!114 &1900760821
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1162.9336
+    y: -20.736383
+    width: 130.04633
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 124
+  blockName: See she's mean
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1900760834}
+  - {fileID: 1900760833}
+  - {fileID: 1900760832}
+--- !u!114 &1900760822
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1049.0051
+    y: 370.47772
+    width: 273.8977
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 137
+  blockName: I know that looks don't make people nice
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1900760843}
+  - {fileID: 1900760842}
+  - {fileID: 1900760841}
+--- !u!114 &1900760823
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 136
+  indentLevel: 0
+  text: And do you care what a mean person says about your hair?
+  description: 
+  targetBlock: {fileID: 1900760840}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760824
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 135
+  indentLevel: 0
+  storyText: Fine. You're meaner than Emily.
+  description: 
+  character: {fileID: 1262455357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1900760825
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1218.771
+    y: 454.9478
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 134
+  blockName: No refunds
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1900760824}
+  - {fileID: 1900760823}
+--- !u!114 &1900760826
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  text: No refunds
+  description: 
+  targetBlock: {fileID: 1900760825}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760827
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+  storyText: And I want my crayon back!
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1900760828
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1036.356
+    y: 450.12845
+    width: 121.92568
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 131
+  blockName: You hired me
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1900760827}
+  - {fileID: 1900760826}
+  - {fileID: 1900760836}
+--- !u!114 &1900760829
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  text: I know that looks don't make people nice
+  description: 
+  targetBlock: {fileID: 1900760822}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760830
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  text: You hired me
+  description: 
+  targetBlock: {fileID: 1900760828}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760831
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  storyText: But what do you know?
+  description: 
+  character: {fileID: 1262455357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1900760832
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  text: Do you care what a meanie says about your hair?
+  description: 
+  targetBlock: {fileID: 1900760840}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760833
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  text: Do you want mean friends?
+  description: 
+  targetBlock: {fileID: 1900760767}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760834
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  storyText: 'I guess you''re right. '
+  description: 
+  character: {fileID: 1262455357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1900760835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1731.8922
+    y: 252.18573
+    width: 189.211
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 146
+  blockName: Your friends at the dance.
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &1900760836
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 0
+  text: To help you
+  description: 
+  targetBlock: {fileID: 1900760822}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760837
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  text: Your friends at the dance.
+  description: 
+  targetBlock: {fileID: 1900760835}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760838
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  text: Sarah seems nice
+  description: 
+  targetBlock: {fileID: 1900760812}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760839
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  storyText: You're right. But who would I dance with?
+  description: 
+  character: {fileID: 1262455357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1900760840
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1411.1478
+    y: 333.4563
+    width: 367.8651
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 141
+  blockName: And do you care what a mean person says about your hair?
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1900760839}
+  - {fileID: 1900760838}
+  - {fileID: 1900760837}
+--- !u!114 &1900760841
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760842
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  indentLevel: 0
+  text: Sarah thinks your nice
+  description: 
+  targetBlock: {fileID: 1900760797}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 689133704}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1900760843
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900760702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  indentLevel: 0
+  storyText: Well obviously
+  description: 
+  character: {fileID: 1262455357}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1978568887
 GameObject:
   m_ObjectHideFlags: 0
@@ -7080,7 +7683,7 @@ Transform:
   m_Children:
   - {fileID: 412314467}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2030725629
 GameObject:
@@ -7493,5 +8096,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
